@@ -112,3 +112,46 @@ These figures describe only the synthetic sample and must not be interpreted as 
 - Confirm baseline KPI definitions and targets.
 - Review requirements and process design with business and technical owners.
 - Execute test cases in an approved test environment and record evidence.
+
+
+Week 4 – Testing and Quality Assurance
+
+Business Analyst Internship Project
+
+Project: Retail Order Delivery Visibility and Customer Communication
+
+### Purpose
+
+This folder contains a business-analysis-focused QA plan for the proposed retail order tracking solution. It checks requirement clarity and testability, defines acceptance criteria, and plans functional, integration, end-to-end, UAT, regression, data-quality, access-control and performance checks.
+
+### Files
+
+`Week4_Testing_and_Quality_Assurance_Report.docx` – detailed report and methodology.
+
+`Week4_Test_Cases_and_QA_Tracker.xlsx` – 18 test cases, requirements traceability, defect log, test summary and data dictionary.
+
+`week4_order_tracking_test_data.csv` – fictional sample orders for test practice.
+
+### How to use
+
+Review the requirements and acceptance criteria in the report.
+
+Open the Excel tracker and review the **Test Cases** sheet.
+
+Use the CSV as fictional test data in a test environment or prototype.
+
+Execute each test only when the relevant feature is available.
+
+Record the actual result, status, severity and evidence in the tracker.
+
+Log genuine failures in the Defect Log, fix them with the responsible team, retest and run relevant regression tests.
+
+Update the Test Summary and obtain business/UAT sign-off.
+
+### Important accuracy note
+
+All test cases are initially marked Not Run. No live application or production environment was supplied with this assignment, so this repository does not claim that tests have been executed or passed. The 3-second response-time figure is a proposed target and must be confirmed by the project owner. All sample order/customer IDs and records are fictional.
+
+### Project skills demonstrated
+
+Business requirements review, acceptance criteria, test planning, requirement traceability, test-case design, data-quality validation, UAT planning, defect management, risk analysis and documentation.
