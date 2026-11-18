@@ -1,0 +1,7 @@
+Event_ID,Timestamp_UTC,Environment,Service,Metric,Observed_Value,Illustrative_Threshold,Severity,Description,Suggested_First_Action,Note
+EVT-001,2026-11-18T08:00:00Z,Staging,Order Tracking,Availability,100%,Below 99.5%,Info,Staging health checks successful,Continue planned validation,Fictional training event
+EVT-002,2026-11-18T08:05:00Z,Staging,Order Search,Response_Time,2.8 seconds,Above 3.0 seconds,Info,Sample response time within illustrative threshold,Continue monitoring,Fictional training event
+EVT-003,2026-11-18T08:10:00Z,Staging,Order Search,Error_Rate,6%,Above 5%,High,Illustrative increase in failed searches,Review application logs and recent configuration changes,Fictional training event
+EVT-004,2026-11-18T08:15:00Z,Staging,Order Data,Status_Freshness,45 minutes,Above 30 minutes,Medium,Sample order status appears stale,Check update process and source timestamp,Fictional training event
+EVT-005,2026-11-18T08:20:00Z,Staging,Notifications,Failure_Rate,8%,Above 5%,High,Illustrative notification failures,Check test recipient configuration and notification service,Fictional training event
+EVT-006,2026-11-18T08:25:00Z,Staging,Order Tracking,Availability,99.9%,Below 99.5%,Info,Service remains reachable,Continue observation,Fictional training event
